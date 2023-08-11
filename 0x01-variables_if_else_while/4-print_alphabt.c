@@ -7,9 +7,9 @@
 
 int main(void)
 {
-	char c = 'a';
+	char c;
 
-	for (c <= 'z'; c++)
+	for (c = 'a';c <= 'z'; c++)
 	{
 		if (c == 'e' || c == 'q')
 			continue;
