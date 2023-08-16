@@ -23,7 +23,7 @@ void times_table(void)
 				_putchar(' ');
 			}
 
-			_putchar(prod);
+			_putchar(prod + '0');
 		}
 		_putchar('\n');
 	}
