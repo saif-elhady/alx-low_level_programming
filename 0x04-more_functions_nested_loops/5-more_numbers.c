@@ -10,6 +10,7 @@ void more_numbers(void)
 	while (x < 10)
 	{
 		int y = 0;
+
 		while (y < 15)
 		{
 			if (y > 9)
