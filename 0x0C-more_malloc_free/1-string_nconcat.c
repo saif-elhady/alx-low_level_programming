@@ -4,7 +4,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int i = 0, j = 0;
-	char *s3[];
+	char *s3;
 	int len = 0;
 
 	while (s1[i] != '\0')
